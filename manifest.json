@@ -2,11 +2,11 @@
   "manifest_version": 3,
   "name": "Com o Grêmio Onde o Grêmio Estiver",
   "version": "1.0",
-  "description": "Substitui todas as imagens da web por imagens do Grêmio FBPA. Todas as imagens utilizadas são retiradas a partir do flickr (https://www.flickr.com/photos/gremiooficial/) do clube. Vamos Grêmio!",
+  "description": "Substitui as imagens da web por registros do Grêmio FBPA, retiradas a partir do site (https://www.flickr.com/photos/gremiooficial/)",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"],
+      "js": ["comogremioondeogremioestiver.js"],
       "run_at": "document_end"
     }
   ]
