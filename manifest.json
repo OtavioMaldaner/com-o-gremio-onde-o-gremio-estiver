@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["comogremioondeogremioestiver.js"],
+      "js": ["content.js"],
       "run_at": "document_end"
     }
   ]
